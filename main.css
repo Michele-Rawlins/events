@@ -1,12 +1,16 @@
 body {
     background-color:blanchedalmond;
 }
-
-.pies {
+#myPies{
     display: flex;
-    flex-flow: row wrap;
+flex-flow: row wrap;
+}
+.pies {
+    /* display: flex; */
+    /* flex-flow: row wrap; */
     border: dotted 5px black;
-    margin: 33%;
+    margin: 1%;
+    width: 30%;
 }
 h1 {
     text-align: center;
@@ -17,12 +21,7 @@ h2 {
     text-align: center;
 }
 img {
-    height: 150px;
-    width: 150px;
-    display: block;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     border: solid;
     box-shadow: blue 2px 2px;
 
